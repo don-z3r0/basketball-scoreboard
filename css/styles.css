@@ -1,8 +1,8 @@
 
 @font-face {
   font-family: 'web-font';
-  src: url('fonts/webfontkit-Cursed Timer ULiL Regular/cursedtimerulil-aznm-webfont.woff2') format('woff2'),
-       url('fonts/webfontkit-Cursed Timer ULiL Regular/cursedtimerulil-aznm-webfont.woff') format('woff');
+  src: url('https://github.dev/don-z3r0/basketball-scoreboard/blob/cd76371937a19a3f5b17de3c34a92bfe704e579e/fonts/webfontkit-Cursed%20Timer%20ULiL%20Regular/cursedtimerulil-aznm-webfont.woff2') format('woff2'),
+       url('https://github.dev/don-z3r0/basketball-scoreboard/blob/cd76371937a19a3f5b17de3c34a92bfe704e579e/fonts/webfontkit-Cursed%20Timer%20ULiL%20Regular/cursedtimerulil-aznm-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -65,6 +65,7 @@
     background-color: var(---black);
     padding-right: 0.5rem;
     border-radius: 0.5rem;
+    font-family: 'web-font', Arial, Helvetica, sans-serif;
   }
   
   h3 {
@@ -84,6 +85,7 @@
     background-color: var(---black);
     border: 1px solid var(---white);
     border-radius: 0.5rem;
+    font-family: 'web-font', Arial, Helvetica, sans-serif;
   }
   
   p {
