@@ -1,1 +1,153 @@
 
+@font-face {
+    font-family: 'MyWebFont';
+    src:  url('myfont.woff2') format('woff2'),
+          url('myfont.woff') format('woff');
+  }
+  
+  :root {
+    ---blue: #1B244A;
+    ---black: #000;
+    ---white: #fff;
+    ---red: #ad0303;
+  }
+  
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    margin-top: 1rem;
+    background: black;
+  }
+  
+  .wrapper {
+    width: 50rem;
+    height: 30rem;
+    min-width: 40rem;
+    margin: 0 auto;
+    color: #fff;
+    background-color: #1B244A;
+    border-radius: 0.75rem;
+    transform: scale(0.75);
+    box-shadow: 0.3rem 0.3rem 0.3rem var(---red) inset;
+  }
+  
+  div {
+    padding: 3px;
+  }
+  
+  .container,
+  .tol,
+  .fouls {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .home,
+  .away {
+    height: 8.5rem;
+    width: 10rem;
+    margin-top: 3.75rem;
+  }
+  
+  #home-score,
+  #guest-score {
+    text-align: right;
+    font-size: 4.5rem;
+    color: #ad0303;
+    background-color: #000;
+    padding-right: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  
+  h3 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  .center {
+    height: 14rem;
+    width: 19.5rem;
+  }
+  
+  .timer {
+    font-size: 3.25rem;
+    text-align: center;
+    color: #ad0303;
+    background-color: #000;
+    border: 1px solid var(---white);
+    border-radius: 0.5rem;
+  }
+  
+  p {
+    color: #ad0303;
+    width: 1.5rem;
+    margin: 0 auto;
+    background-color: #000;
+    font-size: 2.25rem;
+    text-align: center;
+  }
+  
+  h5 {
+    font-size: 2rem;
+    text-align: center;
+    width: 8rem;
+    margin: 0 auto;
+  }
+  
+  .home-tol,
+  .home-fouls {
+    position: relative;
+    right: -10rem;
+  }
+  
+  .away-tol,
+  .away-fouls {
+    position: relative;
+    left: -10rem;
+  }
+  
+  .span {
+    background: transparent;
+    height: 1.25rem;
+  }
+  
+  
+  .btn-div {
+    width: 10rem;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+  }
+  
+  .btn {
+    background: transparent;
+    color: #9CA3AF;
+    width: 1.8rem;
+    border: 1px solid #9CA3AF;
+    border-radius: 5px;
+    transform: scale(1.2);
+  }
+  
+  .reset-div {
+    width: 5rem;
+    height: 3.6rem;
+    margin: 2rem auto 0 auto;
+    border-radius: 0.5rem;
+    display: flex;
+    transform: scale(1.5);
+    background-color: #ad0303;
+    box-shadow: 0.1rem 0.2rem 2px #000;
+  }
+  
+  #reset-btn {
+    border: none;
+    font-size: 1.2rem;
+    background: transparent;
+    color: #000;
+    font-family: '',sans-serif, times;
+  }
+  
