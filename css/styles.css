@@ -26,14 +26,7 @@
   body {
     background: var(---black);
   }
-
-  #home-score,
-  #guest-score,
-  #timer {
-    font-family: 'web-font', Arial, Helvetica, sans-serif;
-    color: var(---red);
-  }
-  
+    
   .wrapper {
     width: 50rem;
     height: 30rem;
@@ -68,6 +61,7 @@
   #guest-score {
     text-align: right;
     font-size: 4.5rem;
+    color: var(---red);
     background-color: var(---black);
     padding-right: 0.5rem;
     border-radius: 0.5rem;
@@ -86,6 +80,7 @@
   .timer {
     font-size: 3.25rem;
     text-align: center;
+    color: var(---red);
     background-color: var(---black);
     border: 1px solid var(---white);
     border-radius: 0.5rem;
