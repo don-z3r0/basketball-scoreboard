@@ -23,8 +23,7 @@
   }
   
   body {
-    margin-top: 1rem;
-    background: black;
+    background: var(---black);
   }
 
   #home-score,
