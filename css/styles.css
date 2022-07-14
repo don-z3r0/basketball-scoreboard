@@ -1,9 +1,13 @@
 
 @font-face {
-    font-family: 'MyWebFont';
-    src:  url('myfont.woff2') format('woff2'),
-          url('myfont.woff') format('woff');
-  }
+  font-family: 'web-font';
+  src: url('fonts/webfontkit-Cursed Timer ULiL Regular/cursedtimerulil-aznm-webfont.woff2') format('woff2'),
+       url('fonts/webfontkit-Cursed Timer ULiL Regular/cursedtimerulil-aznm-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
   
   :root {
     ---blue: #1B244A;
@@ -21,6 +25,12 @@
   body {
     margin-top: 1rem;
     background: black;
+  }
+
+  #home-score,
+  #away-score,
+  #timer {
+    font-family: 'web-font', Arial, Helvetica, sans-serif;
   }
   
   .wrapper {
@@ -80,6 +90,7 @@
     background-color: #000;
     border: 1px solid var(---white);
     border-radius: 0.5rem;
+    font
   }
   
   p {
