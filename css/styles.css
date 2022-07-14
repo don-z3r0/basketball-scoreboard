@@ -13,7 +13,8 @@
     ---blue: #1B244A;
     ---black: #000;
     ---white: #fff;
-    ---red: v#ad0303;
+    ---red: #ad0303;
+    ---grey: #9CA3AF;
   }
   
   * {
@@ -37,8 +38,8 @@
     height: 30rem;
     min-width: 40rem;
     margin: 0 auto;
-    color: #fff;
-    background-color: #1B244A;
+    color: var(---white);
+    background-color: var(---blue);
     border-radius: 0.75rem;
     transform: scale(0.75);
     box-shadow: 0.3rem 0.3rem 0.3rem var(---red) inset;
@@ -134,9 +135,9 @@
   
   .btn {
     background: transparent;
-    color: #9CA3AF;
+    color: var(---grey);
     width: 1.8rem;
-    border: 1px solid #9CA3AF;
+    border: 1px solid var(---grey);
     border-radius: 5px;
     transform: scale(1.2);
   }
