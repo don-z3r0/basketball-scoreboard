@@ -1,164 +1,109 @@
-  
-  :root {
-    --blue: #1B244A;
-    --black: #000;
-    --white: #fff;
-    --red: #ad0303;
-    --grey: #9CA3AF;
-  }
-  
-  * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
-  
-  body {
-    background: var(--black);
-  }
-    
-  .wrapper {
-    width: 50rem;
-    min-width: 40rem;
-    margin: 0.8rem auto;
-    color: var(--white);
-    background-color: var(--blue);
-    border-radius: 0.75rem;
-    box-shadow: 0.3rem 0.3rem 0.3rem var(--red) inset;
-    padding: 1rem 0;
-  }
-  
-  div {
-    padding: 3px;
-  }
-  
-  .container,
-  .tol,
-  .fouls {
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .home,
-  .away {
-    height: 8.5rem;
-    width: 10rem;
-    margin-top: 3.75rem;
-  }
-  
-  #home-score,
-  #guest-score {
-    text-align: right;
-    font-size: 4.5rem;
-    color: var(--red);
-    background-color: var(--black);
-    padding-right: 0.5rem;
-    border-radius: 0.5rem;
-    margin-top: 0.2rem;
-  }
-  
-  h1 {
-      margin: 0;
-  }
-  
-  h3 {
-    font-size: 2.5rem;
-    text-align: center;
-  }
-  
-  .center {
-    width: 19.5rem;
-  }
-  
-  .timer {
-    font-size: 3.25rem;
-    text-align: center;
-    color: var(--red);
-    background-color: var(--black);
-    border: 1px solid var(--white);
-    border-radius: 0.5rem;
-  }
-  
-  #timer {
-      margin: 0;
-  }
-  
-  .period {
-      margin: 1rem auto;
-  }
-  
-  p {
-    color: var(--red);
-    width: 1.5rem;
-    margin: 0 auto;
-    background-color: var(--black);
-    font-size: 2.25rem;
-    text-align: center;
-  }
-  
-  h5 {
-    font-size: 2rem;
-    text-align: center;
-    width: 8rem;
-    margin: 0 auto;
-  }
-  
-  .home-tol,
-  .home-fouls {
-    position: relative;
-    right: -10rem;
-  }
-  
-  .away-tol,
-  .away-fouls {
-    position: relative;
-    left: -10rem;
-  }
-  
-  .span {
-    background: transparent;
-    height: 1.25rem;
-  }
-  
-  
-  .btn-div {
-    width: 10rem;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 0.8rem;
-  }
-  
-  .btn {
-    background: transparent;
-    color: var(--grey);
-    width: 1.8rem;
-    border: 1px solid var(--grey);
-    border-radius: 5px;
-    transform: scale(1.2);
-  }
-  
-  #btn-wrapper {
-      display: flex;
-      justify-content: space-around;
-  }
-  
+:root {
+  --dark-blue: hsla(216, 93%, 12%, 1);
+  --goldenrod: hsla(42, 54%, 45%, 1);
+  --sapphire: hsla(197, 92%, 24%, 1);
+  --black: hsla(0, 0%, 0%, 1);
+  --gray: hsla(210, 6%, 57%, 1);
+  --red: hsla(1, 60%, 47%, 1);
+}
 
-  .reset-div, 
-  .start-div {
-    width: 5rem;
-    height: 3.6rem;
-    border-radius: 0.5rem;
-    display: flex;
-    background-color: var(--red);
-    box-shadow: 0.1rem 0.2rem 2px var(--black);
-  }
-  
-  #reset-btn,
-  #start-btn {
-    border: none;
-    font-size: 1.2rem;
-    background: transparent;
-    color: var(--white);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(155deg, var(--dark-blue) 55%, var(--gray));
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  /* margin-top: 0; */
+  padding-block: 1rem;
+}
+h1,
+h3,
+h5,
+p {
+  margin: 0;
+}
+
+.timer__text,
+.tol__text {
+  color: var(--red);
+}
+
+.score__text,
+.fouls__text,
+.game__text,
+.period__text {
+  color: var(--goldenrod);
+}
+
+.screen {
+  background-color: var(--black);
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+}
+
+#period {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border: 1px solid var(--sapphire);
+  max-width: 25rem;
+  margin: 0 auto;
+}
+
+.screen,
+.container {
+  padding: 1rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+span {
+  border: 2px solid seashell;
+  width: 30px;
+  place-self: center;
+}
+
+.score-down {
+  margin-top: 2rem;
+  display: none;
+}
+
+button {
+  margin-top: 1rem;
+  background: var(--sapphire);
+  color: hsla(0, 0%, 100%, .9);
+  border-color: var(--sapphire);
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.test {
+  font-family: Tahoma, Verdana, Geneva, sans-serif;
+  font-style: italic;
+  font-size: 12px;
+  margin-top: 1rem;
+}
+
+footer {
+  font-family: Tahoma, Verdana, Geneva, sans-serif;
+  font-style: italic;
+  font-size: 12px;
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+}
