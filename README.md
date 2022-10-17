@@ -31,8 +31,8 @@ This is my solution to the Scrimba's Basketball Scoreboard from the Making Websi
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/jumaHarun/oldgram)
-- Live Site URL: [Oldagram on Netlify](https://jharun-oldagram.netlify.app/)
+- Solution URL: [GitHub](https://github.com/jumaHarun/basketball-scoreboard)
+- Live Site URL: [Basketball scoreboard on Netlify](https://jharun-basketball-scoreboard.netlify.app/)
 
 ## My process
 
