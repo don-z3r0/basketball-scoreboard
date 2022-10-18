@@ -38,12 +38,19 @@ body {
   .guest {
     place-self: center;
     border: 1px solid var(--sapphire);
-    padding: 0.5em 2em;
+    padding: 0.5rem 2rem;
   }
 }
 
+
 main {
-  padding: 0 1em;
+  padding: 0 1rem;
+}
+
+.home,
+.timer,
+.guest {
+  padding: .8em 1em;
 }
 
 h1 {
@@ -87,13 +94,13 @@ p {
 
 .container {
   border: 1px solid var(--sapphire);
-  max-width: 35rem;
+  max-width: 35em;
   margin: 0 auto;
 }
 
 .screen,
 .container {
-  padding: 1rem;
+  padding: 0.8rem 1.2rem;
 }
 
 .flex {
