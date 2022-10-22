@@ -71,10 +71,11 @@ function countdownTimer(timerEl, minutes, seconds) {
         if(msLeft < 1000) {
             clearInterval(x);
             timerEl.textContent = '00:00'
+            start.disabled = false
+            
             setTimeout(() => {
                 timerEl.textContent = checkbox.checked ? '00:05' : '12:00'
                 setPeriod()
-                start.disabled = false
             }, 1000);
         } else {
             time = new Date(msLeft)

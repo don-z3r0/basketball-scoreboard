@@ -107,17 +107,6 @@ p {
   display: flex;
 }
 
-span {
-  border: 2px solid seashell;
-  width: 30px;
-  place-self: center;
-}
-
-.score-down {
-  margin-top: 2rem;
-  display: none;
-}
-
 button {
   margin-top: 1rem;
   background: var(--sapphire);
